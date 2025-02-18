@@ -1,5 +1,5 @@
 from sqlmodel import SQLModel, create_engine, Session
-from .models import User,Product
+from .models import User,Product,ProductCart
 DATABASE_URL = "postgresql://postgres:230902@localhost/dairy-store"
  
 engine = create_engine(DATABASE_URL)
